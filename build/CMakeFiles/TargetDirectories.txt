@@ -1,0 +1,5 @@
+/home/ricky/mining-project/sha256-miner/build/CMakeFiles/sha256-miner.dir
+/home/ricky/mining-project/sha256-miner/build/CMakeFiles/package.dir
+/home/ricky/mining-project/sha256-miner/build/CMakeFiles/package_source.dir
+/home/ricky/mining-project/sha256-miner/build/CMakeFiles/edit_cache.dir
+/home/ricky/mining-project/sha256-miner/build/CMakeFiles/rebuild_cache.dir

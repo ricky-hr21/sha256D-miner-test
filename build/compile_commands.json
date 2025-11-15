@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/ricky/mining-project/sha256-miner/build",
+  "command": "/usr/bin/c++   -g -O3 -march=native -o CMakeFiles/sha256-miner.dir/main.cpp.o -c /home/ricky/mining-project/sha256-miner/main.cpp",
+  "file": "/home/ricky/mining-project/sha256-miner/main.cpp",
+  "output": "CMakeFiles/sha256-miner.dir/main.cpp.o"
+}
+]
