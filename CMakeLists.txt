@@ -11,7 +11,8 @@ include_directories(${LIBBTC_INCLUDE_DIRS})
 link_directories(${LIBBTC_LIBRARY_DIRS})
 add_definitions(${LIBBTC_CFLAGS_OTHER})
 
-add_executable(sha256-miner main.cpp)
+add_executable(sha256-miner main.cpp
+                            hash_openssl.cpp)
 
 target_link_libraries(sha256-miner PRIVATE OpenSSL::Crypto ${LIBBTC_LIBRARIES})
 

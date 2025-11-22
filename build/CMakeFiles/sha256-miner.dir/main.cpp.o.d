@@ -1,6 +1,6 @@
 CMakeFiles/sha256-miner.dir/main.cpp.o: \
  /home/ricky/mining-project/sha256-miner/main.cpp \
- /usr/include/stdc-predef.h /usr/local/include/btc/hash.h \
+ /usr/include/stdc-predef.h /usr/local/include/btc/utils.h \
  /usr/local/include/btc/btc.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
@@ -75,15 +75,15 @@ CMakeFiles/sha256-miner.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/14/bits/std_abs.h /usr/include/string.h \
  /usr/include/strings.h /usr/local/include/btc/cstr.h \
- /usr/local/include/btc/memory.h /usr/local/include/btc/sha2.h \
- /usr/local/include/btc/vector.h /usr/local/include/btc/utils.h \
- /usr/local/include/btc/block.h /usr/local/include/btc/buffer.h \
- /usr/local/include/btc/hash.h /usr/local/include/btc/serialize.h \
- /usr/local/include/btc/portable_endian.h /usr/include/c++/14/cstring \
- /usr/include/c++/14/bits/version.h /usr/include/c++/14/iostream \
- /usr/include/c++/14/bits/requires_hosted.h /usr/include/c++/14/ostream \
- /usr/include/c++/14/ios /usr/include/c++/14/iosfwd \
- /usr/include/c++/14/bits/stringfwd.h \
+ /usr/local/include/btc/memory.h /usr/local/include/btc/block.h \
+ /usr/local/include/btc/buffer.h /usr/local/include/btc/hash.h \
+ /usr/local/include/btc/sha2.h /usr/local/include/btc/vector.h \
+ /usr/local/include/btc/serialize.h \
+ /usr/local/include/btc/portable_endian.h /usr/local/include/btc/buffer.h \
+ /usr/include/c++/14/cstring /usr/include/c++/14/bits/version.h \
+ /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
+ /usr/include/c++/14/ostream /usr/include/c++/14/ios \
+ /usr/include/c++/14/iosfwd /usr/include/c++/14/bits/stringfwd.h \
  /usr/include/c++/14/bits/memoryfwd.h /usr/include/c++/14/bits/postypes.h \
  /usr/include/c++/14/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
@@ -187,26 +187,13 @@ CMakeFiles/sha256-miner.dir/main.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/inttypes.h \
- /usr/include/openssl/evp.h /usr/include/openssl/macros.h \
- /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
- /usr/include/x86_64-linux-gnu/openssl/configuration.h \
- /usr/include/openssl/opensslv.h /usr/include/openssl/types.h \
- /usr/include/openssl/e_os2.h /usr/include/openssl/safestack.h \
- /usr/include/openssl/stack.h /usr/include/openssl/core.h \
- /usr/include/openssl/core_dispatch.h /usr/include/openssl/indicator.h \
- /usr/include/openssl/params.h /usr/include/openssl/bn.h \
- /usr/include/openssl/crypto.h /usr/include/openssl/cryptoerr.h \
- /usr/include/openssl/symhacks.h /usr/include/openssl/cryptoerr_legacy.h \
- /usr/include/openssl/bnerr.h /usr/include/openssl/bio.h \
- /usr/include/openssl/bioerr.h /usr/include/openssl/evperr.h \
- /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
- /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
- /usr/include/openssl/objectserr.h /usr/include/c++/14/chrono \
- /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
- /usr/include/c++/14/cstdint /usr/include/c++/14/limits \
- /usr/include/c++/14/ctime /usr/include/c++/14/bits/parse_numbers.h \
- /usr/include/c++/14/thread /usr/include/c++/14/bits/std_thread.h \
+ /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
+ /usr/include/c++/14/ratio /usr/include/c++/14/cstdint \
+ /usr/include/c++/14/limits /usr/include/c++/14/ctime \
+ /usr/include/c++/14/bits/parse_numbers.h /usr/include/c++/14/thread \
+ /usr/include/c++/14/bits/std_thread.h \
  /usr/include/c++/14/bits/unique_ptr.h \
  /usr/include/c++/14/bits/this_thread_sleep.h /usr/include/c++/14/atomic \
  /usr/include/c++/14/bits/atomic_base.h \
- /usr/include/c++/14/bits/atomic_lockfree_defines.h
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /home/ricky/mining-project/sha256-miner/hash_openssl.h

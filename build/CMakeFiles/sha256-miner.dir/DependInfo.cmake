@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ricky/mining-project/sha256-miner/hash_openssl.cpp" "CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o" "gcc" "CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o.d"
   "/home/ricky/mining-project/sha256-miner/main.cpp" "CMakeFiles/sha256-miner.dir/main.cpp.o" "gcc" "CMakeFiles/sha256-miner.dir/main.cpp.o.d"
   "" "sha256-miner" "gcc" "CMakeFiles/sha256-miner.dir/link.d"
   )

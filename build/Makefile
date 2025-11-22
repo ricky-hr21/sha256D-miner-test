@@ -149,6 +149,30 @@ sha256-miner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/build
 .PHONY : sha256-miner/fast
 
+hash_openssl.o: hash_openssl.cpp.o
+.PHONY : hash_openssl.o
+
+# target to build an object file
+hash_openssl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o
+.PHONY : hash_openssl.cpp.o
+
+hash_openssl.i: hash_openssl.cpp.i
+.PHONY : hash_openssl.i
+
+# target to preprocess a source file
+hash_openssl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/hash_openssl.cpp.i
+.PHONY : hash_openssl.cpp.i
+
+hash_openssl.s: hash_openssl.cpp.s
+.PHONY : hash_openssl.s
+
+# target to generate assembly for a file
+hash_openssl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/hash_openssl.cpp.s
+.PHONY : hash_openssl.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -184,6 +208,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... sha256-miner"
+	@echo "... hash_openssl.o"
+	@echo "... hash_openssl.i"
+	@echo "... hash_openssl.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,6 +3,7 @@ sha256-miner: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/sha256-miner.dir/main.cpp.o \
+  CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/local/lib/libbtc.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
@@ -44,6 +45,8 @@ sha256-miner: \
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
 
 CMakeFiles/sha256-miner.dir/main.cpp.o:
+
+CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sha256-miner.dir/link.d"
+  "CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o"
+  "CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o.d"
   "CMakeFiles/sha256-miner.dir/main.cpp.o"
   "CMakeFiles/sha256-miner.dir/main.cpp.o.d"
   "sha256-miner"

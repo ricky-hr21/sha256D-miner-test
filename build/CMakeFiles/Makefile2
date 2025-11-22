@@ -85,12 +85,12 @@ clean: CMakeFiles/sha256-miner.dir/clean
 CMakeFiles/sha256-miner.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricky/mining-project/sha256-miner/build/CMakeFiles --progress-num=1,2 "Built target sha256-miner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricky/mining-project/sha256-miner/build/CMakeFiles --progress-num=1,2,3 "Built target sha256-miner"
 .PHONY : CMakeFiles/sha256-miner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sha256-miner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/mining-project/sha256-miner/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/mining-project/sha256-miner/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sha256-miner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricky/mining-project/sha256-miner/build/CMakeFiles 0
 .PHONY : CMakeFiles/sha256-miner.dir/rule
@@ -102,7 +102,7 @@ sha256-miner: CMakeFiles/sha256-miner.dir/rule
 # codegen rule for target.
 CMakeFiles/sha256-miner.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sha256-miner.dir/build.make CMakeFiles/sha256-miner.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricky/mining-project/sha256-miner/build/CMakeFiles --progress-num=1,2 "Finished codegen for target sha256-miner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricky/mining-project/sha256-miner/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target sha256-miner"
 .PHONY : CMakeFiles/sha256-miner.dir/codegen
 
 # clean rule for target.

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/sha256-miner.dir/link.d "CMakeFiles/sha256-miner.dir/main.cpp.o" -o sha256-miner   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/lib/x86_64-linux-gnu/libcrypto.so -lbtc
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/sha256-miner.dir/link.d "CMakeFiles/sha256-miner.dir/main.cpp.o" "CMakeFiles/sha256-miner.dir/hash_openssl.cpp.o" -o sha256-miner   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/lib/x86_64-linux-gnu/libcrypto.so -lbtc
